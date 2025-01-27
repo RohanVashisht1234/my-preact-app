@@ -44,6 +44,7 @@ class {
   }
 }
 
-for|Card_Details| of=state.repo_list
-  custom_card Card_Details=Card_Details section=state.input
+section.flex.w-full.flex-wrap.justify-evenly
+  for|Card_Details| of=state.repo_list
+    custom_card Card_Details=Card_Details section=state.input
 h1.white#checker -- Loading more...
